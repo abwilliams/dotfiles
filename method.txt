@@ -1,0 +1,10 @@
+# Methodology - commands used in creating dotfiles repository
+=============================================================
+
+mkdir ~/dotfiles
+cd ~/dotfiles
+ln -s ~/.vimrc ~/.dotfiles/.vimrc
+
+git config --global credential.helper "cache --timeout=14400"
+git clone http://github.com/abwilliams/dotfiles.git ~/dotfiles
+
