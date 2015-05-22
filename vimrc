@@ -22,9 +22,10 @@ Plugin 'gmarik/vundle.vim'		" vundle manages itself from GitHub repo
 " Plugin 'L9'				" from http://vim-scripts.org/vim/scripts.html
 " Plugin 'file:///home/path/plug-in.git'" local git repository
 Plugin 'tpope/vim-sensible'		" basic .vimrc (overides settings in this vimrc)
-Plugin 'tpope/vim-fugative'		" git wrapper
+Plugin 'vim-fugitive'		" git wrapper
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'sjl/vitality.vim'		" http://github.com/sjl/vitality.vim
 call vundle#end()
 
 " Attempt to determine the type of a file based on its name and possibly its
